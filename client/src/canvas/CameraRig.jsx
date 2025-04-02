@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { useSnapshot } from "valtio";
 import { easing } from "maath";
 import state from "../store";
-import { useFrame } from "@react-three/fiber";
+import { useFrame } from "@react-three/fiber"; 
 
 const CameraRig = ({ children }) => {
   const group = useRef();
